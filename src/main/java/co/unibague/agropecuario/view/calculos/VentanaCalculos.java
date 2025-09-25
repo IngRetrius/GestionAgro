@@ -400,7 +400,7 @@ public class VentanaCalculos extends JFrame {
 
         btnActualizar = new JButton("Actualizar Datos");
         btnActualizar.setBackground(Constantes.COLOR_SUCCESS);
-        btnActualizar.setForeground(Color.WHITE);
+        btnActualizar.setForeground(Color.BLACK);
         btnActualizar.setFont(Constantes.FONT_NORMAL);
         btnActualizar.addActionListener(e -> actualizarDatos());
 
@@ -412,7 +412,7 @@ public class VentanaCalculos extends JFrame {
 
         btnComparar = new JButton("Análisis Comparativo");
         btnComparar.setBackground(Constantes.COLOR_INFO);
-        btnComparar.setForeground(Color.WHITE);
+        btnComparar.setForeground(Color.BLACK);
         btnComparar.setFont(Constantes.FONT_NORMAL);
         btnComparar.addActionListener(e -> mostrarAnalisisComparativo());
 

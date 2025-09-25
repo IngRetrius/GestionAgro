@@ -228,7 +228,7 @@ public class VentanaProductoAgricola extends JFrame implements Observer {
         // Configurar tabla
         tabla.setRowHeight(25);
         tabla.getTableHeader().setBackground(Constantes.COLOR_PRIMARY);
-        tabla.getTableHeader().setForeground(Color.WHITE);
+        tabla.getTableHeader().setForeground(Color.BLACK);
         tabla.getTableHeader().setFont(Constantes.FONT_SUBTITLE);
 
         JScrollPane scrollPane = new JScrollPane(tabla);
@@ -243,24 +243,24 @@ public class VentanaProductoAgricola extends JFrame implements Observer {
 
         btnCrear = new JButton("Crear");
         btnCrear.setBackground(Constantes.COLOR_SUCCESS);
-        btnCrear.setForeground(Color.WHITE);
+        btnCrear.setForeground(Color.BLACK);
         btnCrear.addActionListener(e -> crearProducto());
 
         btnActualizar = new JButton("Actualizar");
         btnActualizar.setBackground(Constantes.COLOR_INFO);
-        btnActualizar.setForeground(Color.WHITE);
+        btnActualizar.setForeground(Color.BLACK);
         btnActualizar.addActionListener(e -> actualizarProducto());
         btnActualizar.setEnabled(false);
 
         btnEliminar = new JButton("Eliminar");
         btnEliminar.setBackground(Constantes.COLOR_DANGER);
-        btnEliminar.setForeground(Color.WHITE);
+        btnEliminar.setForeground(Color.BLACK);
         btnEliminar.addActionListener(e -> eliminarProducto());
         btnEliminar.setEnabled(false);
 
         btnLimpiar = new JButton("Limpiar");
         btnLimpiar.setBackground(Constantes.COLOR_WARNING);
-        btnLimpiar.setForeground(Color.WHITE);
+        btnLimpiar.setForeground(Color.BLACK);
         btnLimpiar.addActionListener(e -> limpiarFormulario());
 
         btnCalcular = new JButton("Calcular Rentabilidad");
